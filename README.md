@@ -1,10 +1,7 @@
----
-title: LMGround
-emoji: ⚡
-colorFrom: yellow
-colorTo: yellow
-sdk: docker
-pinned: false
----
+Custom RMSNorm kernel for LLama3-8B.
 
-Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
+I made this as a study for GPU programming, applying the custom kernel by hand.
+
+I pushed this repo initially to Huggingface Space. 
+
+
