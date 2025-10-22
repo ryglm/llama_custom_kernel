@@ -4,7 +4,7 @@ from pydantic import BaseModel
 
 from utils import chatbot  # singleton instance
 
-app = FastAPI(title="Llama 3-8B (modular + metrics)")
+app = FastAPI(title="Llama 3-8B")
 
 class GenerateIn(BaseModel):
     prompt: str
